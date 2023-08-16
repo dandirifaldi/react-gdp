@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/pages/home';
+import "bootstrap/dist/css/bootstrap.min.css"
+import Region from './components/pages/region';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <Home></Home> */}
+        <Region></Region>
     </div>
   );
 }
-
+// satu komponen punya 3 hal 1 js, 2 css, 3.test.js nya
+//  
 export default App;
